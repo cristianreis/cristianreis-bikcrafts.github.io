@@ -23,10 +23,7 @@
     border-radius: 10px;
 }
 
-.introducao h1 {
-    
 
-}
 .introducao h1::first-letter{
     color: var(--cor-p2);
 
