@@ -1,0 +1,53 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.botao{
+    display: inline-block;
+    background: linear-gradient( #f8bb00, #f2a50c);
+    color: var(--cor-p5);
+    font-weight: bold;
+    padding: 16px 32px;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    font-family: "Poppins";
+    font-weight: 600;
+}
+.botao:hover {
+    background: linear-gradient( var(--cor-p2), var(--cor-p1));
+    background-color: var(--cor-p1);
+}
+
+@media (max-width: 600px) {
+    .botao {
+       padding: 12px 16px; 
+       font-size: 16px;
+    }
+}
+.link {
+    display: inline-block;
+    color: var(--cor-p1);
+    font: 500 1.5rem/1.5 "Poppins", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+.link::after {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background: currentColor;
+    position: absolute;
+    left: 0;
+    top: 35px;
+}
+.link:hover {
+   color: var(--cor-0);
+}
