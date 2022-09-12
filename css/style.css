@@ -20,3 +20,6 @@
 
 /* Parceiros */
 @import "./home/parceiros.css";
+
+/* Depoimentos */
+@import "./home/depoimento.css"
