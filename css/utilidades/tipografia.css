@@ -31,6 +31,7 @@
   }
   .font-1-xl {
     font: 600 2rem/1.25 "Poppins", sans-serif;
+    text-transform: uppercase;
   }
   .font-2-xl {
     font: 500 2rem/1.25 "Roboto", sans-serif;

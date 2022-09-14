@@ -22,4 +22,7 @@
 @import "./home/parceiros.css";
 
 /* Depoimentos */
-@import "./home/depoimento.css"
+@import "./home/depoimento.css";
+
+/* Seguros */ 
+@import "./seguros/seguros.css";
