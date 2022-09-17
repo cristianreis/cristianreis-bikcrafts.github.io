@@ -12,7 +12,7 @@
 /* Home */
 @import "./home/introducao.css";
 
-/* Bicicletas */
+/* Bicicletas listas */
 @import "./bicicletas/bicicletas-listas.css";
 
 /* Tecnologia */
@@ -33,3 +33,7 @@
 
 /* Termos */ 
 @import "./termos/termos.css";
+
+/* Bicicletas */
+
+@import "./bicicletas/bicicletas.css";
