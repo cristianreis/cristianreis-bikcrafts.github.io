@@ -27,7 +27,7 @@
 }
 
 .header-menu a:after {
-    
+
     content: "";
     display: block;
     height: 2px;
@@ -58,9 +58,9 @@
         background-color: var(--cor-10);
     }
 
-.header-menu a:hover::after {
-    width: 75%;
-}
+    .header-menu a:hover::after {
+        width: 75%;
+    }
 
 }
 
