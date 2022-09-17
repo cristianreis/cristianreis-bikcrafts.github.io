@@ -30,3 +30,6 @@
 
 /*Footer */
 @import "./global/footer.css";
+
+/* Termos */ 
+@import "./termos/termos.css";
