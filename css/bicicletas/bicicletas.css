@@ -1,6 +1,6 @@
 .bicicletas-bg {
     background-color: var(--cor-11);
-    box-shadow: inset 390px 0px 0px #ffffff;
+    box-shadow: inset 200% 0px 0px #ffffff;
 
 }
 
@@ -70,4 +70,10 @@ grid-column: 1 / -1;
     width: 24px;
     gap: 8px;
 
+}
+
+@media (max-width: 800px){
+    .bicicletas {
+        grid-template-columns: 1fr;
+    }
 }
