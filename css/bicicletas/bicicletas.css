@@ -34,7 +34,6 @@
 .bicicletas-conteudo {
     display: grid;
     grid-template-columns: 1fr auto;
-    align-content: flex-start;
 }
 
 .bicicletas-conteudo h2,
@@ -80,7 +79,7 @@
 
 }
 
-@media (max-width:900px) {
+@media (max-width:800px) {
     .bicicletas {
         grid-template-columns: 1fr;
     }
