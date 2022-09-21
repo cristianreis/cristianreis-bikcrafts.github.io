@@ -1,15 +1,18 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     color: #111111;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff;
 }
+
 blockquote {
     margin: 0;
 }
+
 ul {
     padding: 0;
     list-style: none;
@@ -26,13 +29,14 @@ img {
 }
 
 h1,
-h2,h3,
+h2,
+h3,
 ul,
-p {
+p,
+dd {
     margin: 0;
 }
+
 img[src$=".jpg"] {
     border-radius: 5px;
-
 }
-

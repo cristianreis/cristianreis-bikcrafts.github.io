@@ -6,7 +6,8 @@
     box-sizing: border-box;
     margin: 0 auto;
 }
-.botao{
+
+.botao {
     display: inline-block;
     background: linear-gradient( #f8bb00, #f2a50c);
     color: var(--cor-p5);
@@ -21,42 +22,47 @@
     font-weight: 600;
     max-width: max-content;
 }
+
 .botao:hover {
     background: linear-gradient( var(--cor-p2), var(--cor-p1));
     background-color: var(--cor-p1);
 }
+
 .botao.secundario {
     background: var(--cor-10);
     color: var(--cor-0);
 }
+
 .botao.secundario:hover {
     background: var(--cor-9);
-    
 }
+
 .botao.seta {
     display: flex;
     align-items: center;
 }
-.botao.seta::after{
+
+.botao.seta::after {
     content: "";
     display: inline-block;
     width: 18px;
     height: 10px;
     margin-left: 12px;
     background: url("../../img/icones/seta.svg");
-    transition: transform  2s;
-
-
+    transition: transform 2s;
 }
+
 .botao.seta:hover::after {
-   transform: translateX(4px);
+    transform: translateX(10px);
 }
+
 @media (max-width: 600px) {
     .botao {
-       padding: 12px 16px; 
-       font-size: 16px;
+        padding: 12px 16px;
+        font-size: 16px;
     }
 }
+
 .link {
     display: inline-block;
     color: var(--cor-p1);
@@ -64,6 +70,7 @@
     text-transform: uppercase;
     position: relative;
 }
+
 .link::after {
     display: block;
     content: "";
@@ -74,9 +81,11 @@
     left: 0;
     top: 35px;
 }
+
 .link:hover {
-   color: var(--cor-0);
+    color: var(--cor-0);
 }
+
 
 /* Titulos internos */
 
@@ -85,15 +94,15 @@
     padding-bottom: 60px;
     background-color: var(--cor-11);
 }
+
 .titulo p {
     margin-bottom: 4px;
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
     .titulo-bg {
         padding-top: 40px;
         padding-bottom: 40px;
-
     }
     .titulo p {
         font-size: 1rem;
