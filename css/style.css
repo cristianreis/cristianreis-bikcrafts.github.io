@@ -56,3 +56,7 @@
 /* Perguntas */
 
 @import "./seguros/perguntas.css";
+
+/* Bicicletas Personalizada */
+
+@import "./bicicleta/bicicleta.css";
